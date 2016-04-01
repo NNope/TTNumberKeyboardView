@@ -15,7 +15,7 @@
 -(void)RanNumKeyboard:(RanNumKeyboardView*)keyboard didClickWithButton:(id)button;
 @end
 
-@interface RanNumKeyboardView : UIView
+@interface RanNumKeyboardView : UIView<UIInputViewAudioFeedback>
 
 @property (nonatomic, weak) id<RanNumKeyboardViewDelegate> delegate;
 

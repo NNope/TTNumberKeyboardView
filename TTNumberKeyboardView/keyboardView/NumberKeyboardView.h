@@ -25,7 +25,7 @@
 
 @end
 
-@interface NumberKeyboardView : UIView
+@interface NumberKeyboardView : UIView<UIInputViewAudioFeedback>
 
 // 可能是textField textView
 @property (nonatomic, strong) id<UITextInput> textView;

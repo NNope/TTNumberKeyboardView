@@ -42,11 +42,16 @@ static NumberKeyboardView* keyboardViewInstance = nil;
             btn.layer.borderWidth = .25f;
             btn.layer.borderColor = [UIColor colorWithRed:180/255.0 green:180/255.0 blue:180/255.0 alpha:1.0].CGColor;
             
-            
             [btn setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithRed:180/255.0 green:180/255.0 blue:180/255.0 alpha:1.0]] forState:UIControlStateHighlighted];
         }
     }
     return self;
+}
+
+#pragma mark - UIInputViewAudioFeedback
+- (BOOL)enableInputClicksWhenVisible
+{
+    return YES;
 }
 
 - (IBAction)keyboardClick:(id)sender

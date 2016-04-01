@@ -136,6 +136,12 @@ CGFloat const NavigationBarHeight = 64;
     }
 }
 
+#pragma mark - UIInputViewAudioFeedback
+- (BOOL)enableInputClicksWhenVisible
+{
+    return YES;
+}
+
 - (void)keyboardClick:(id)sender
 {
     if (self.delegate && [self.delegate respondsToSelector:@selector(RanNumKeyboard:didClickWithButton:)])
