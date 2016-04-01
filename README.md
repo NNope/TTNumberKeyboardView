@@ -7,12 +7,12 @@
 使用TTTextField或者TTTextView即可支持。
 
 ```objc
-    // 数字键盘
-    self.tdNum.keyboardViewType = KeyboardViewNum; // 默认值
-    self.tdNum.dotvalue = 3; // 默认2位小数
-    // 随机数键盘
-    self.tdRanNum.keyboardViewType = KeyboardViewRandomNum;
-    self.tdRanNum.PWDlength = 6; // 默认不限制
+// 数字键盘
+self.tdNum.keyboardViewType = KeyboardViewNum; // 默认值
+self.tdNum.dotvalue = 3; // 默认2位小数
+// 随机数键盘
+self.tdRanNum.keyboardViewType = KeyboardViewRandomNum;
+self.tdRanNum.PWDlength = 6; // 默认不限制
 ```
 
 [详细介绍戳](http://www.jianshu.com/p/d911c644e4a1)
