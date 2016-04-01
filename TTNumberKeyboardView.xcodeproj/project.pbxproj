@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1F06861CAD12550063E867 /* NumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F06831CAD12550063E867 /* NumberKeyboardView.m */; };
+		AD1F06871CAD12550063E867 /* NumberKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1F06841CAD12550063E867 /* NumberKeyboardView.xib */; };
+		AD1F06881CAD12550063E867 /* tztKeyboardDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1F06851CAD12550063E867 /* tztKeyboardDelete@2x.png */; };
+		AD1F068D1CAD129F0063E867 /* TTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F068A1CAD129F0063E867 /* TTTextField.m */; };
+		AD1F068E1CAD129F0063E867 /* TTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F068C1CAD129F0063E867 /* TTTextView.m */; };
+		AD1F06921CAD12A60063E867 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F06911CAD12A60063E867 /* UIImage+Category.m */; };
+		AD1F069B1CAE02DD0063E867 /* RanNumKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F069A1CAE02DD0063E867 /* RanNumKeyboardView.m */; };
+		AD1F06C11CAE17490063E867 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F06C01CAE17490063E867 /* GlobeConst.m */; };
+		ADC029F41CABC889000031D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC029F31CABC889000031D5 /* main.m */; };
+		ADC029F71CABC889000031D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC029F61CABC889000031D5 /* AppDelegate.m */; };
+		ADC029FA1CABC889000031D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC029F91CABC889000031D5 /* ViewController.m */; };
+		ADC029FD1CABC889000031D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC029FB1CABC889000031D5 /* Main.storyboard */; };
+		ADC029FF1CABC889000031D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC029FE1CABC889000031D5 /* Assets.xcassets */; };
+		ADC02A021CABC889000031D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC02A001CABC889000031D5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD1F06821CAD12550063E867 /* NumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberKeyboardView.h; sourceTree = "<group>"; };
+		AD1F06831CAD12550063E867 /* NumberKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboardView.m; sourceTree = "<group>"; };
+		AD1F06841CAD12550063E867 /* NumberKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberKeyboardView.xib; sourceTree = "<group>"; };
+		AD1F06851CAD12550063E867 /* tztKeyboardDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tztKeyboardDelete@2x.png"; sourceTree = "<group>"; };
+		AD1F06891CAD129F0063E867 /* TTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTextField.h; sourceTree = "<group>"; };
+		AD1F068A1CAD129F0063E867 /* TTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTextField.m; sourceTree = "<group>"; };
+		AD1F068B1CAD129F0063E867 /* TTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTextView.h; sourceTree = "<group>"; };
+		AD1F068C1CAD129F0063E867 /* TTTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTextView.m; sourceTree = "<group>"; };
+		AD1F06901CAD12A60063E867 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		AD1F06911CAD12A60063E867 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		AD1F06991CAE02DD0063E867 /* RanNumKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RanNumKeyboardView.h; sourceTree = "<group>"; };
+		AD1F069A1CAE02DD0063E867 /* RanNumKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RanNumKeyboardView.m; sourceTree = "<group>"; };
+		AD1F06BF1CAE17490063E867 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeConst.h; sourceTree = "<group>"; };
+		AD1F06C01CAE17490063E867 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
+		ADC029EF1CABC889000031D5 /* TTNumberKeyboardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTNumberKeyboardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC029F31CABC889000031D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC029F51CABC889000031D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADC029F61CABC889000031D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADC029F81CABC889000031D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADC029F91CABC889000031D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADC029FC1CABC889000031D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC029FE1CABC889000031D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC02A011CABC889000031D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC02A031CABC889000031D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC029EC1CABC889000031D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1F06811CAD12550063E867 /* keyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F06891CAD129F0063E867 /* TTTextField.h */,
+				AD1F068A1CAD129F0063E867 /* TTTextField.m */,
+				AD1F068B1CAD129F0063E867 /* TTTextView.h */,
+				AD1F068C1CAD129F0063E867 /* TTTextView.m */,
+				AD1F06991CAE02DD0063E867 /* RanNumKeyboardView.h */,
+				AD1F069A1CAE02DD0063E867 /* RanNumKeyboardView.m */,
+				AD1F06821CAD12550063E867 /* NumberKeyboardView.h */,
+				AD1F06831CAD12550063E867 /* NumberKeyboardView.m */,
+				AD1F06841CAD12550063E867 /* NumberKeyboardView.xib */,
+				AD1F06851CAD12550063E867 /* tztKeyboardDelete@2x.png */,
+				AD1F06BF1CAE17490063E867 /* GlobeConst.h */,
+				AD1F06C01CAE17490063E867 /* GlobeConst.m */,
+			);
+			path = keyboardView;
+			sourceTree = "<group>";
+		};
+		AD1F068F1CAD12A60063E867 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F06901CAD12A60063E867 /* UIImage+Category.h */,
+				AD1F06911CAD12A60063E867 /* UIImage+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ADC029E61CABC889000031D5 = {
+			isa = PBXGroup;
+			children = (
+				ADC029F11CABC889000031D5 /* TTNumberKeyboardView */,
+				ADC029F01CABC889000031D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC029F01CABC889000031D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC029EF1CABC889000031D5 /* TTNumberKeyboardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC029F11CABC889000031D5 /* TTNumberKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				ADC029F51CABC889000031D5 /* AppDelegate.h */,
+				ADC029F61CABC889000031D5 /* AppDelegate.m */,
+				ADC029F81CABC889000031D5 /* ViewController.h */,
+				ADC029F91CABC889000031D5 /* ViewController.m */,
+				AD1F068F1CAD12A60063E867 /* Category */,
+				AD1F06811CAD12550063E867 /* keyboardView */,
+				ADC029FB1CABC889000031D5 /* Main.storyboard */,
+				ADC029FE1CABC889000031D5 /* Assets.xcassets */,
+				ADC02A001CABC889000031D5 /* LaunchScreen.storyboard */,
+				ADC02A031CABC889000031D5 /* Info.plist */,
+				ADC029F21CABC889000031D5 /* Supporting Files */,
+			);
+			path = TTNumberKeyboardView;
+			sourceTree = "<group>";
+		};
+		ADC029F21CABC889000031D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC029F31CABC889000031D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC029EE1CABC889000031D5 /* TTNumberKeyboardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC02A061CABC889000031D5 /* Build configuration list for PBXNativeTarget "TTNumberKeyboardView" */;
+			buildPhases = (
+				ADC029EB1CABC889000031D5 /* Sources */,
+				ADC029EC1CABC889000031D5 /* Frameworks */,
+				ADC029ED1CABC889000031D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTNumberKeyboardView;
+			productName = TTNumberKeyboardView;
+			productReference = ADC029EF1CABC889000031D5 /* TTNumberKeyboardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC029E71CABC889000031D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "谈Xx";
+				TargetAttributes = {
+					ADC029EE1CABC889000031D5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ADC029EA1CABC889000031D5 /* Build configuration list for PBXProject "TTNumberKeyboardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC029E61CABC889000031D5;
+			productRefGroup = ADC029F01CABC889000031D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC029EE1CABC889000031D5 /* TTNumberKeyboardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC029ED1CABC889000031D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F06881CAD12550063E867 /* tztKeyboardDelete@2x.png in Resources */,
+				ADC02A021CABC889000031D5 /* LaunchScreen.storyboard in Resources */,
+				ADC029FF1CABC889000031D5 /* Assets.xcassets in Resources */,
+				ADC029FD1CABC889000031D5 /* Main.storyboard in Resources */,
+				AD1F06871CAD12550063E867 /* NumberKeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC029EB1CABC889000031D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC029FA1CABC889000031D5 /* ViewController.m in Sources */,
+				AD1F068D1CAD129F0063E867 /* TTTextField.m in Sources */,
+				AD1F06921CAD12A60063E867 /* UIImage+Category.m in Sources */,
+				AD1F06C11CAE17490063E867 /* GlobeConst.m in Sources */,
+				ADC029F71CABC889000031D5 /* AppDelegate.m in Sources */,
+				AD1F069B1CAE02DD0063E867 /* RanNumKeyboardView.m in Sources */,
+				ADC029F41CABC889000031D5 /* main.m in Sources */,
+				AD1F06861CAD12550063E867 /* NumberKeyboardView.m in Sources */,
+				AD1F068E1CAD129F0063E867 /* TTTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC029FB1CABC889000031D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC029FC1CABC889000031D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC02A001CABC889000031D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC02A011CABC889000031D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC02A041CABC889000031D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADC02A051CABC889000031D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC02A071CABC889000031D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTNumberKeyboardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tan.TTNumberKeyboardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58fc867b-01d1-4f6d-ae97-def553de3e52";
+			};
+			name = Debug;
+		};
+		ADC02A081CABC889000031D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTNumberKeyboardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tan.TTNumberKeyboardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58fc867b-01d1-4f6d-ae97-def553de3e52";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC029EA1CABC889000031D5 /* Build configuration list for PBXProject "TTNumberKeyboardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC02A041CABC889000031D5 /* Debug */,
+				ADC02A051CABC889000031D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC02A061CABC889000031D5 /* Build configuration list for PBXNativeTarget "TTNumberKeyboardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC02A071CABC889000031D5 /* Debug */,
+				ADC02A081CABC889000031D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC029E71CABC889000031D5 /* Project object */;
+}
