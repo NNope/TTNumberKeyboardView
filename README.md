@@ -1,5 +1,6 @@
 #2种自定义数字键盘
-######随机数键盘借鉴了[WAMaker/SelfDefineKeyboard](https://github.com/WAMaker/SelfDefineKeyboard)的demo。
+#####1. 随机数键盘借鉴了[WAMaker/SelfDefineKeyboard](https://github.com/WAMaker/SelfDefineKeyboard)的demo。
+#####2. 还有一种是普通数字键盘
 效果如下
 
 ![1.gif](http://upload-images.jianshu.io/upload_images/810907-b705398a11431209.gif?imageMogr2/auto-orient/strip)
